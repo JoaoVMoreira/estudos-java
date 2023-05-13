@@ -1,0 +1,60 @@
+TESTES UNITARIOS
+
+##########################################################################################
+
+Qual a importancia dos testes automatizados?
+
+Os testes são importantes para verificar a confiabilidade de seu programa, despistando bugs e retornos indesejados.
+Testes manuais são chatos, cansativos e menos eficientes que testes automatizados, que garantem a confiabilidade de suas funções de forma mais rapida e eficaz, poupando assim o tempo do programador.
+
+##########################################################################################
+
+Oque devo testar?
+
+Os testes devem ser aplicados a funções ou metodos que possuem logica complexa envolvida, como validações, calculos, etc...
+Metodos como getters, setterss e construtores não são interessantes de serem testados, uma vez que todos seguem uma logica simples e são escritos automaticamente pela IDE.
+
+##########################################################################################
+
+JUNIT 
+
+Junit é a biblioteca utilizada para realizar os testes unitarios. Tal biblioteca funcionar melhor no Eclipse.
+
+Para realizar um teste é necessário ter, dentro de uma classe, um metodo que será testado.
+
+Em seguida devemos criar uma classe que recebe o nome da classe + "Teste".
+
+Em seguida realizamos a criação do metodo de teste com a seguinte sintaxe:
+
+    @Test
+    public void nomeDetalhadoDaFunçãoSendoTestada(){
+	assertEquals(ValorEsperado, ValorRetornado);
+    }
+
+Em seguida iremos Run o codigo com JUnit para verificarmos se o retorno está de acordo com o esperado.
+
+##########################################################################################
+
+TDD
+
+Conceito de programação com testes unitarios, onde o codigo é testando antes de ser implementado no programa, logo todo o processo de criação do metodo ocorre dentro do teste.
+É realziado um rasconho no teste e em seguida vamos preparando o programa para receber o codigo no teste. Assim que o teste retornar que o codigo funciona, seguimos com a implementção.
+
+O TDD deve ser utilizado quando 
+
+-> Devemos refatorar os codigos de testes, seguindo boas praticas e mais metodos do JUnit
+
+##########################################################################################
+
+Tratar exception
+
+Temos situações em que é necessário utilizar exceptions em nosso codigo para que a compilação não siga. 
+Podemos tambem testar estas exceptions da seguinte forma:
+
+assertThrows(exceptioName.class, ()-> valorRetornado);
+
+ou utilizando try e catch.
+
+##########################################################################################
+
+

@@ -1,0 +1,79 @@
+#########################################################
+
+PILHA
+
+Realiza o empilhamento dos metodos acionados, dando prioridade para o metodo que encontra-se no topo da pilha. 
+
+-> Por padrão o metodo inicial é o metodo main;
+-> Quando o metodo é finalizado ele é retirado da pilha, seguindo com o proximo metodo;
+
+#########################################################
+
+DEPURAÇÃO
+
+É possivel verificar ao vivo a sequencia de execução realizada em seu programa, utilizando a opção Debug possibilitando acompanhar cada alteração, impressão, atribuição e implementação de cada linha. 
+
+#########################################################
+
+INTRODUÇÃO A EXCESSÕES
+
+As excessões são possiveis erros de compilação apresentados no codigo, em caso de falhas logicas apresentadas pelo proprio compilador, onde o mesmo não pode seguir com a aplicação do restante do codigo, afetando todo o programa.
+
+
+Ass excessões podem ser tratadas com Try e catch:
+
+-> Try - Tente executar x codigo
+-> Catch(NomeDoObjetoDeErro ex) - Caso try não funcione, execute codigo y
+
+
+Os erros anunciados no catch retornam uma mensagem, utilizando o comando;
+
+ex.getMessage();
+
+A mensagem pode ser utilziada para detalhar melhor o erro apresentado
+
+#########################################################
+
+Variação de Catch
+
+Temos diversas formas de acionar o catch, cada uma abordando um tipo de excessão diferente, como:
+
+ArithmeticException - Em caso de erro retornamos a excessão; 
+NullPointerException - erro por retornos nulos de classes;
+
+Ambos podem ser acionados nos parâmetros do catch separados por "|", tratando assim as duas escessões de uma só vez.
+
+#########################################################
+
+Criando, lançando e controlando excessões
+
+Realiamos a criação de uma exception a partir de sua instanciação, uma vez que a exception é uma classe. EX:
+
+ArithmeticException ex = new ArithmeticException("Deu erro!");
+
+throw ex;
+
+OU
+
+
+throw new ArithmeticException("Deu erro!");
+
+#########################################################
+
+Hierarquia de excessões 
+
+As excessões padrões do java são classes que extendem RunTimeException.
+
+Podemos criar uma excessão extendendo em uma classe a classe RunTimeException.
+
+#########################################################
+
+Exception
+
+Temos dois tipos de classes de exceprions, as que são verificadas (Exceptions) e as que não são verificadas pelo compilador (RunTimeException.)
+
+Em caso de classes verificadas pelo compilador, é necessário que informemos o atributo throw no metodo para que o codigo seja compilado.
+
+"private static void Metodo1() throws MinhaExcessao2{ //Em toda a assinatura de metodo será necessário anunciar o throws"
+
+#########################################################

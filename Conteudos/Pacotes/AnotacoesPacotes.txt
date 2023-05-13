@@ -1,0 +1,59 @@
+#########################################################
+
+PACOTES 
+
+São utilizados para organizar melhor o codigo.
+
+Uma vez que decidimos utilizar pacotes devemos anunciar a cada arquivo a qual pacote o mesmo pertence.
+
+Em caso de classes instanciadas em pacotes diferentes é necessário utilizar o nome do pacote no momento do acionamento da classe.
+
+#########################################################
+
+IMPORTAÇÃO DE PACOTES
+
+Para evitarmos incongruencias devido aos nome do pacotes, separamos da seguinte forma:
+
+>br
+->com
+-->NomeEmpresa
+--->NomeProjeto
+---->NomePacote
+
+Para que nao precisemos utilizar o nome completo da classe, podemos importa-la na área desejada com o comando "import".
+
+#########################################################
+
+MODIFICADORES DE VISIBILIDADE
+
+Public - Visivel em todo lugar
+Private - Visivel somente na classe
+Protected - Visivel em classes filhas
+
+#########################################################
+
+JAVADOC
+
+Podemos realizar a exportação de um projeto extenso em jfile(zip), selecionando o projeto que desejamos exportar e selecionando a opção jfile.
+
+Para utilizar um jfile no projeto devemos criar a pasta lib, colocar o arquivo dentro de lib e na área Build adicionar ao BuildPath.
+
+#########################################################
+
+JAVA.LANG
+
+Unico pacote que não precisa ser importado, uma vez que é adicionado automaticamente no momento da criação da classe. 
+
+#########################################################
+
+STRINGS
+
+Strings são classes, por padrão não são instanciadas com o comando new.
+
+Strings possuem metodos acoplados como o ToLowerCase(), que deixa os caracteres em letras minusculas, porem para ser utilizado, é necessário que o valor seja atribuido a outra variável, uma vez que Strings são imutaveis. Ex:
+
+String nome = "Joao";
+
+String outroNome = nome.ToLowerCase();
+
+#########################################################

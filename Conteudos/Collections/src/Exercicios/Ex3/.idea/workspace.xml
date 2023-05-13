@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a4f892e-6188-4e42-b8a7-44d154f8761f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Agregacao/Agregacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AulaArrayList/AulaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClassesAbstratas/AgregacaoEComposicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Equals e HashCode/Duvida1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Equals e HashCode/Nomes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/ICaneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Lapis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IntroducaoCollectios/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Map/MapEstudo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2OwmTXaWHyk8waZDLxzCkvbLE8D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jvitt/Documents/EstudosJava/Collections/src/Exercicios/Ex3"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a4f892e-6188-4e42-b8a7-44d154f8761f" name="Changes" comment="" />
+      <created>1682480026685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682480026685</updated>
+    </task>
+    <servers />
+  </component>
+</project>
